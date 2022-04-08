@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * msin - Entry point
+ * main - Entry point
  *
  * Return: always return 0 (success/correct)
  */
