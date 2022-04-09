@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-	int i, y;
+	int c = 0;
 
-	for (i = 0; i < 10; i++)
+	while (c < 10)
 	{
-		putchar (i + '0');
+		putchar(48 + c);
+		if (c != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		c++;
 	}
-	for (y = 'a'; y <= 'f'; y++)
-	{
-		putchar (y);
-	}
-
 	putchar('\n');
 	return (0);
 }
