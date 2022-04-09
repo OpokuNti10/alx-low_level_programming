@@ -35,7 +35,7 @@ int main(void)
 			}
 			d++;
 			d = c;
-			x = d + 1;
+			f = d + 1;
 		}
 		c++;
 		d = 48;
