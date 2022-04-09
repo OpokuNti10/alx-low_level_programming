@@ -16,7 +16,6 @@ int main(void)
 			{
 				while (c < 58)
 				{
-					
 					putchar(c);
 					putchar(d);
 					putchar(' ');
@@ -26,8 +25,7 @@ int main(void)
 					{
 						putchar(',');
 						putchar(' ');
-					}
-					
+					}	
 					f++;
 				}
 				e++;
