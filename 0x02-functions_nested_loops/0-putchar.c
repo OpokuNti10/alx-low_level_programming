@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _putcahr - writes the character c to stdout
- * @c: The character to print
+ * main - Entry point
+ *
  * Return: Always return 0 (success\correct)
  */
 int main(void)
