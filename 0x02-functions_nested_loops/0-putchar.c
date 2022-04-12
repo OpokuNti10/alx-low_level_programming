@@ -5,7 +5,7 @@
  * @c: The character to print
  * Return: Always return 0 (success\correct)
  */
-int _putcahr(cahr c)
+int _putcahr(char c)
 {
 	return (write(1, &c, 1));
 }
